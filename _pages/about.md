@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: /'lɪndia 'tʃuatʃa/  蔡玲丽
+description: /'lɪndia 'tʃuatʃa/ • 蔡玲丽 (càilínglì)
 
 profile:
   align: right
