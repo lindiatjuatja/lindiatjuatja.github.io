@@ -13,7 +13,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm a fourth-year undergraduate student at UT Austin where I study Linguistics and Computer Engineering.
+Hi! I'm Lindia, a fourth-year undergraduate student at UT Austin where I study Linguistics and Computer Engineering.
 
 I'm applying to PhD programs for the Fall 2022 cycle. My current research interests lie in the intersection of theoretical and computational approaches to semantics & pragmatics, syntax, and linguistic typology. 
 
