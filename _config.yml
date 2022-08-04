@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Lindia
 middle_name: 
 last_name: Tjuatja
-email: lindia.tjuatja@utexas.edu
+email: lindiat@andrew.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
@@ -69,7 +69,7 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: false
 
 contact_note: >
-I'm always happy to talk about new research ideas and graduate school admissions (for ling/CS/cogsci/adjacent fields)! The best way to contact me is at my CMU email, lindiat at andrew dot cmu dot edu :)
+I'm always happy to talk about new research ideas and graduate school admissions (for ling/CS/cogsci/adjacent fields)! The best way to contact me is at my CMU email, which is linked in the mail icon below.
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
