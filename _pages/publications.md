@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: plural in progress
 order: 1
-years: [2023, 2021]
+years: [2024, 2023, 2021]
 nav: true
 ---
 

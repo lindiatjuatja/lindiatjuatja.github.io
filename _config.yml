@@ -181,7 +181,7 @@ jekyll-archives:
 scholar:
 
   last_name: Tjuatja
-  first_name: Lindia
+  first_name: [Lindia, Lindia*]
 
   style: apa
   locale: en
