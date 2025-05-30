@@ -11,8 +11,7 @@
 }
 
 @inproceedings{tjuatja-etal-2023-syntax,
-    abbr = {*SEM},
-    title = "Syntax and Semantics Meet in the {``}Middle{''}: Probing the Syntax-Semantics Interface of {LM}s Through Agentivity",
+    title = "Syntax and Semantics Meet in the {\textquotedblleft}Middle{\textquotedblright}: Probing the Syntax-Semantics Interface of {LM}s Through Agentivity",
     author = "Tjuatja, Lindia  and
       Liu, Emmy  and
       Levin, Lori  and
@@ -24,19 +23,34 @@
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
-    url = {https://aclanthology.org/2023.starsem-1.14},
-    code={https://github.com/lindiatjuatja/lm_sem},
+    url = "https://aclanthology.org/2023.starsem-1.14/",
     doi = "10.18653/v1/2023.starsem-1.14",
     pages = "149--164",
+    abstract = "Recent advances in large language models have prompted researchers to examine their abilities across a variety of linguistic tasks, but little has been done to investigate how models handle the interactions in meaning across words and larger syntactic forms{---}i.e. phenomena at the intersection of syntax and semantics. We present the semantic notion of agentivity as a case study for probing such interactions. We created a novel evaluation dataset by utilitizing the unique linguistic properties of a subset of optionally transitive English verbs. This dataset was used to prompt varying sizes of three model classes to see if they are sensitive to agentivity at the lexical level, and if they can appropriately employ these word-level priors given a specific syntactic context. Overall, GPT-3 text-davinci-003 performs extremely well across all experiments, outperforming all other models tested by far. In fact, the results are even better correlated with human judgements than both syntactic and semantic corpus statistics. This suggests that LMs may potentially serve as more useful tools for linguistic annotation, theory testing, and discovery than select corpora for certain tasks."
 }
 
-@inproceedings{he2023sigmorefun,
-  abbr = {SIGMORPHON},
-  title={SigMoreFun submission to the SIGMORPHON shared task on interlinear glossing},
-  author={He, Taiqi* and Tjuatja, Lindia* and Robinson, Nathaniel and Watanabe, Shinji and Mortensen, David R and Neubig, Graham and Levin, Lori},
-  booktitle={Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology},
-  year={2023},
-  url = {https://aclanthology.org/2023.sigmorphon-1.22/},
+@inproceedings{he-etal-2023-sigmorefun,
+    title = "{S}ig{M}ore{F}un Submission to the {SIGMORPHON} Shared Task on Interlinear Glossing",
+    author = "He, Taiqi*  and
+      Tjuatja, Lindia*  and
+      Robinson, Nathaniel  and
+      Watanabe, Shinji  and
+      Mortensen, David R.  and
+      Neubig, Graham  and
+      Levin, Lori",
+    editor = {Nicolai, Garrett  and
+      Chodroff, Eleanor  and
+      Mailhot, Frederic  and
+      {\c{C}}{\"o}ltekin, {\c{C}}a{\u{g}}r{\i}},
+    booktitle = "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sigmorphon-1.22/",
+    doi = "10.18653/v1/2023.sigmorphon-1.22",
+    pages = "209--216",
+    abstract = "In our submission to the SIGMORPHON 2023 Shared Task on interlinear glossing (IGT), we explore approaches to data augmentation and modeling across seven low-resource languages. For data augmentation, we explore two approaches: creating artificial data from the provided training data and utilizing existing IGT resources in other languages. On the modeling side, we test an enhanced version of the provided token classification baseline as well as a pretrained multilingual seq2seq model. Additionally, we apply post-correction using a dictionary for Gitksan, the language with the smallest amount of data. We find that our token classification models are the best performing, with the highest word-level accuracy for Arapaho and highest morpheme-level accuracy for Gitksan out of all submissions. We also show that data augmentation is an effective strategy, though applying artificial data pretraining has very different effects across both models tested."
 }
 
 @inproceedings{ginn-etal-2024-glosslm,
@@ -63,18 +77,40 @@
   abstract = "Language documentation projects often involve the creation of annotated text in a format such as interlinear glossed text (IGT), which captures fine-grained morphosyntactic analyses in a morpheme-by-morpheme format. However, there are few existing resources providing large amounts of standardized, easily accessible IGT data, limiting their applicability to linguistic research, and making it difficult to use such data in NLP modeling. We compile the largest existing corpus of IGT data from a variety of sources, covering over 450k examples across 1.8k languages, to enable research on crosslingual transfer and IGT generation. We normalize much of our data to follow a standard set of labels across languages.Furthermore, we explore the task of automatically generating IGT in order to aid documentation projects. As many languages lack sufficient monolingual data, we pretrain a large multilingual model on our corpus. We demonstrate the utility of this model by finetuning it on monolingual corpora, outperforming SOTA models by up to 6.6{\%}. Our pretrained model and dataset are available on Hugging Face: https://huggingface.co/collections/lecslab/glosslm-66da150854209e910113dd87",
 }
 
-@article{10.1162/tacl_a_00685,
-  abbr = {TACL},
-  author = {Tjuatja, Lindia* and Chen, Valerie* and Wu, Tongshuang and Talwalkwar, Ameet and Neubig, Graham},
-  title = "{Do LLMs Exhibit Human-like Response Biases? A Case Study in Survey Design}",
-  journal = {Transactions of the Association for Computational Linguistics},
-  volume = {12},
-  pages = {1011-1026},
-  year = {2024},
-  month = {09},
-  issn = {2307-387X},
-  doi = {10.1162/tacl_a_00685},
-  url = {https://doi.org/10.1162/tacl\_a\_00685},
-  code = {https://github.com/lindiatjuatja/BiasMonkey},
-  eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00685/2468689/tacl\_a\_00685.pdf},
+@article{tjuatja-etal-2024-llms,
+    title = "Do {LLM}s Exhibit Human-like Response Biases? A Case Study in Survey Design",
+    author = "Tjuatja, Lindia*  and
+      Chen, Valerie*  and
+      Wu, Tongshuang  and
+      Talwalkwar, Ameet  and
+      Neubig, Graham",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.56/",
+    doi = "10.1162/tacl_a_00685",
+    pages = "1011--1026",
+    abstract = "One widely cited barrier to the adoption of LLMs as proxies for humans in subjective tasks is their sensitivity to prompt wording{---}but interestingly, humans also display sensitivities to instruction changes in the form of response biases. We investigate the extent to which LLMs reflect human response biases, if at all. We look to survey design, where human response biases caused by changes in the wordings of {\textquotedblleft}prompts{\textquotedblright} have been extensively explored in social psychology literature. Drawing from these works, we design a dataset and framework to evaluate whether LLMs exhibit human-like response biases in survey questionnaires. Our comprehensive evaluation of nine models shows that popular open and commercial LLMs generally fail to reflect human-like behavior, particularly in models that have undergone RLHF. Furthermore, even if a model shows a significant change in the same direction as humans, we find that they are sensitive to perturbations that do not elicit significant changes in humans. These results highlight the pitfalls of using LLMs as human proxies, and underscore the need for finer-grained characterizations of model behavior.1"
+}
+
+@inproceedings{tjuatja-etal-2025-goes,
+    title = "What Goes Into a {LM} Acceptability Judgment? Rethinking the Impact of Frequency and Length",
+    author = "Tjuatja, Lindia  and
+      Neubig, Graham  and
+      Linzen, Tal  and
+      Hao, Sophie",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.109/",
+    pages = "2173--2186",
+    ISBN = "979-8-89176-189-6",
+    abstract = "When comparing the linguistic capabilities of language models (LMs) with humans using LM probabilities, factors such as the length of the sequence and the unigram frequency of lexical items have a significant effect on LM probabilities in ways that humans are largely robust to. Prior works in comparing LM and human acceptability judgments treat these effects uniformly across models, making a strong assumption that models require the same degree of adjustment to control for length and unigram frequency effects. We propose MORCELA, a new linking theory between LM scores and acceptability judgments where the optimal level of adjustment for these effects is estimated from data via learned parameters for length and unigram frequency. We first show that MORCELA outperforms a commonly used linking theory for acceptability{---}SLOR (Pauls and Klein, 2012; Lau et al., 2017){---}across two families of transformer LMs (Pythia and OPT). Furthermore, we demonstrate that the assumed degrees of adjustment in SLOR for length and unigram frequency overcorrect for these confounds, and that larger models require a lower relative degree of adjustment for unigram frequency, though a significant amount of adjustment is still necessary for all models. Finally, our subsequent analysis shows that larger LMs' lower susceptibility to frequency effects can be explained by an ability to better predict rarer words in context."
 }
