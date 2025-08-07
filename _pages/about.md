@@ -13,10 +13,10 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am currently interning at Apple with the Responsible AI team, and a frequent visitor at NYU. My current research interests mainly lie in **evaluation** and **interpretability**, particularly with respect to the intersection of linguistics (syn+sem+psycholinguistics) and NLP. I also work on NLP for understudied and endangered languages. 
+Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am currently interning at Apple with the Responsible AI team, and am a frequent visitor at NYU. My current research interests mainly lie in **evaluation** and **interpretability**, particularly with respect to the intersection of linguistics (syn+sem+psycholinguistics) and NLP. I also work on NLP for understudied and endangered languages. 
 
 Recently, I've been thinking about:
-- How do language models learn related (syntactic) structures, both within and across (natural and artificial) languages? How much overlap is there between shared syntactic forms with largely different surface forms?
+- How do language models represent related (syntactic) structures, both within and across (natural and artificial) languages?
 - How can we unify interpretability with behavioral evaluation? How do the representations learned by models affect their behavior in usage?
 
 I love collaborating with other students and PIs; if you're interested in any of the above, feel free to reach out!
