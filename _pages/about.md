@@ -13,14 +13,12 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am currently interning at Apple with the Responsible AI team, and am a frequent visitor at NYU. My current research interests mainly lie in **evaluation** and **interpretability**, particularly with respect to the intersection of linguistics (syn+sem+psycholinguistics) and NLP. I also work on NLP for understudied and endangered languages. 
+Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am currently interning at Apple with the Responsible AI team, and am a frequent visitor at NYU. My current research interests mainly lie in **evaluation** and **interpretability**, often with a linguistics and cognitive science bend. I also work on NLP for understudied and endangered languages. 
 
 Recently, I've been thinking about:
-- How do language models represent related (syntactic) structures, both within and across (natural and artificial) languages?
-- How can we unify interpretability with behavioral evaluation? How do the representations learned by models affect their behavior in usage?
+- **Acquisition**: While language models may often *behave* linguistically like humans, their inner workings are significantly different. How can we understand the process by which LMs "learn" language through targeted evaluations and methods in interpretability?
+- **Abstraction**: How do language models represent related (syntactic) structures, both within and across (natural and artificial) languages? Can we exploit shared structures to make (multilingual) language learning more efficient?
 
-I love collaborating with other students and PIs; if you're interested in any of the above, feel free to reach out!
-
-I did my undergrad at UT Austin, where I studied linguistics and computer engineering. During my time there, I worked extensively with [John Beavers](https://sites.google.com/a/utexas.edu/jbeavers/) on a project investigating verb class constraints on the English middle construction (e.g. _This car sells well_). I've also been fortunate enough to have great mentorship from many others, including the amazing [computational linguistics](https://sites.utexas.edu/compling/) faculty there. The summer before my senior year, I was an intern at CMU working with [Shruti Rijhwani](https://shrutirij.github.io/) on transfer learning for OCR post-correction of endangered language text.
+Before CMU, I did my undergrad at UT Austin, where I studied linguistics and computer engineering. During my time there, I worked extensively with [John Beavers](https://sites.google.com/a/utexas.edu/jbeavers/). I've also been fortunate enough to have great mentorship from many others, including the amazing [computational linguistics](https://sites.utexas.edu/compling/) faculty there. The summer before my senior year, I was an intern at CMU working with [Shruti Rijhwani](https://shrutirij.github.io/).
 
 In my (precious) free time, I enjoy [painting](https://www.instagram.com/lindiapaints/) (oil and gouache are my mediums of choice), playing the [viola](https://www.youtube.com/watch?v=GxFy7Jtsnhc), hanging out with my [cat](https://imgur.com/v012ZEa), running, and reading!  
