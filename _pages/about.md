@@ -13,11 +13,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am currently interning at Apple with the Responsible AI team, and am a frequent visitor at NYU. My current research interests mainly lie in **evaluation** and **interpretability**, often with a linguistics and cognitive science bend. I also work on NLP for understudied and endangered languages. 
-
-Recently, I've been thinking about:
-- **Acquisition**: While language models may often *behave* linguistically like humans, their inner workings are significantly different. How can we understand the process by which LMs "learn" language through targeted evaluations and methods in interpretability?
-- **Abstraction**: How do language models represent related (syntactic) structures, both within and across (natural and artificial) languages? Can we exploit shared structures to make (multilingual) language learning more efficient?
+Hi! I'm Lindia, a PhD student at CMU's [Language Technologies Institute](https://www.lti.cs.cmu.edu/) advised by [Graham Neubig](http://www.phontron.com/). I am also am a frequent visitor at NYU with [Tal Linzen](https://tallinzen.net). My current research interests mainly lie in **evaluation** and **interpretability**, often with a **linguistics** and **cognitive science** bend. I also work on NLP for understudied and endangered languages. My research largely centers around understanding how models of language learn structure in text (linguistic or otherwise), and how this may allow them to exhibit more complex behaviors.
 
 Before CMU, I did my undergrad at UT Austin, where I studied linguistics and computer engineering. During my time there, I worked extensively with [John Beavers](https://sites.google.com/a/utexas.edu/jbeavers/). I've also been fortunate enough to have great mentorship from many others, including the amazing [computational linguistics](https://sites.utexas.edu/compling/) faculty there. The summer before my senior year, I was an intern at CMU working with [Shruti Rijhwani](https://shrutirij.github.io/).
 
