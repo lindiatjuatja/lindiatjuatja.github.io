@@ -29,20 +29,7 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
-    width: 100%;
-  }
-  
-  // Add responsive behavior for mobile
-  @media (max-width: 768px) {
-    float: none !important;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 1.5rem auto;
-    
-    img {
-      max-width: 200px;
-      width: 100%;
-    }
+    width: 70%;
   }
 }
 

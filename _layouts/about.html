@@ -20,6 +20,7 @@ layout: default
           path=profile_image_path 
           class="img-fluid z-dept-1 rounded"%}
       {% endif %}
+      {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
       {% if page.profile.address %}
         <div class="address">
           {{ page.profile.address }}
