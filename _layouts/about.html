@@ -13,7 +13,7 @@ layout: default
 
   <article>
     {% if page.profile %}
-    {% assign profile_image_path = "assets/img/" | append: page.profile.image %}
+    {% assign profile_image_path = "assets/img/prof_pic.jpg" %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       {% if page.profile.image %}
         {% include figure.html 
