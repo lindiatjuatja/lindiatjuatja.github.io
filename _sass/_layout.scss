@@ -31,6 +31,19 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+  
+  // Add responsive behavior for mobile
+  @media (max-width: 768px) {
+    float: none !important;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 1.5rem auto;
+    
+    img {
+      max-width: 200px;
+      width: 100%;
+    }
+  }
 }
 
 // TODO: redefine content layout.
