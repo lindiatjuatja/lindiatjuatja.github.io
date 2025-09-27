@@ -6,7 +6,7 @@ description: /'lɪndia 'tʃuatʃa/ • 蔡玲丽 (càilínglì) • she/her
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   address: >
 
 news: true  # includes a list of news items
