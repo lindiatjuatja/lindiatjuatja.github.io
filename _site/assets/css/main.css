@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #16973d;
-  --global-hover-color: #16973d;
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
   --global-footer-bg-color: #141b22;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -73,8 +73,17 @@ body.sticky-bottom-footer {
   max-width: 800px;
 }
 
+.profile {
+  max-width: 300px; /* or whatever size you want */
+  width: 100%;
+  float: none; /* optional: removes float if you want */
+  margin: 0 auto; /* center it for mobile */
+}
+
 .profile img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
 /******************************************************************************
