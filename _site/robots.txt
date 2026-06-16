@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://lindiatjuatja.github.io/sitemap.xml
