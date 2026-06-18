@@ -91,7 +91,6 @@ export default function Home() {
             and{' '}
             <strong className="font-medium text-zinc-900 dark:text-zinc-100">interpretability</strong>{' '}
             of large language models, especially with respect to when, where, and how they may be similar or different to humans. 
-            From an applications angle, 
             I also work on applying these models and other NLP techniques to create tools for supporting underrepresented and endangered languages.
           </p>
           <p className="text-sm">
