@@ -85,8 +85,7 @@ export default function Home() {
             </strong>
           </p>
           <p>
-            My research largely centers around understanding how models of language learn structure in text (linguistic or otherwise), 
-            and how this may allow them to exhibit more complex behaviors.
+            My research largely centers around understanding how language models learn and represent linguistic structure, how this influences their behavior, and how this can inform our knowledge of human language processing.
             These interests manifest in work across {' '}
             <strong className="font-medium text-zinc-900 dark:text-zinc-100">evaluation</strong>{' '}
             and{' '}
