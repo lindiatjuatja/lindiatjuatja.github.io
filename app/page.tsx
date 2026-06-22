@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* News */}
+      {/* (Potentially Out-of-Date) News */}
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}

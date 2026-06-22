@@ -84,6 +84,11 @@ export const PUBLICATIONS: Publication[] = [
 
 export const NEWS: NewsItem[] = [
   {
+    date: 'July 2026',
+    html: 'I will be attedning ACL 2026 in San Diego; I am also recruiting students for the Fall 2027 admissions cycle (more details to come). In the meantime, if you are interested in chatting, feel free to email me (please put [ACL] in the subject line).',
+    id: 'news-2026-07',
+  },
+  {
     date: 'Sep 2025',
     html: 'Gave a talk at the <a href="https://www.linguistics.pitt.edu/event/lindia-tjuatja-cmu-language-technologies-institute-linguistic-judgments-language-models" target="_blank" rel="noopener noreferrer" class="underline">University of Pittsburgh Linguistics Colloquium</a> on Linguistic Judgments of Language Models (<a href="https://drive.google.com/file/d/1-hoL9k1eIk84LjK9x7xeZSLSat45_lhg/view?usp=share_link" target="_blank" rel="noopener noreferrer" class="underline">slides</a>).',
     id: 'news-2025-09',
