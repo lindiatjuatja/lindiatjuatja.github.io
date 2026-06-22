@@ -84,8 +84,8 @@ export const PUBLICATIONS: Publication[] = [
 
 export const NEWS: NewsItem[] = [
   {
-    date: 'July 2026',
-    html: 'I will be attedning ACL 2026 in San Diego; I am also recruiting students for the Fall 2027 admissions cycle (more details to come). In the meantime, if you are interested in chatting, feel free to email me (please put [ACL] in the subject line).',
+    date: 'Jul 2026',
+    html: 'I will be attedning ACL 2026 in San Diego; I am also recruiting students for the Fall 2027 admissions cycle (more details to come). In the meantime, if you are interested in chatting at ACL, feel free to email me (please put [ACL] in the subject line).',
     id: 'news-2026-07',
   },
   {
