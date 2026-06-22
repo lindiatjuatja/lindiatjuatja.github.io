@@ -100,7 +100,7 @@ export const NEWS: NewsItem[] = [
   },
   {
     date: 'Nov 2024',
-    html: 'Presented two papers at EMNLP in Miami: <a href="https://aclanthology.org/2024.tacl-1.28/" target="_blank" rel="noopener noreferrer" class="underline">Do LLMs Exhibit Human-like Response Biases?</a> and <a href="https://aclanthology.org/2024.emnlp-main.683/" target="_blank" rel="noopener noreferrer" class="underline">GlossLM</a>.',
+    html: 'Presented two papers at EMNLP in Miami: <a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00685/124261/Do-LLMs-Exhibit-Human-like-Response-Biases-A-Case" target="_blank" rel="noopener noreferrer" class="underline">Do LLMs Exhibit Human-like Response Biases?</a> and <a href="https://aclanthology.org/2024.emnlp-main.683/" target="_blank" rel="noopener noreferrer" class="underline">GlossLM</a>.',
     id: 'news-2024-11',
   },
   {
