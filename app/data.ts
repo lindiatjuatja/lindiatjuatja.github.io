@@ -21,6 +21,42 @@ type SocialLink = {
 
 export const PUBLICATIONS: Publication[] = [
   {
+    title: 'What do language models learn and when? The implicit curriculum hypothesis',
+    authors: 'Emmy Liu, Kaiser Sun, Millicent Li, Isabelle Lee, Lindia Tjuatja, Jen-tse Huang, Graham Neubig',
+    venue: 'COLM',
+    year: 2026,
+    link: 'https://arxiv.org/abs/2604.08510',
+    code: 'https://github.com/KaiserWhoLearns/ElementalTask',
+    id: 'pub-colm2026',
+  },
+  {
+    title: '🏆 Massively Multilingual Joint Segmentation and Glossing',
+    authors: 'Michael Ginn, Lindia Tjuatja, Enora Rice, Ali Marashian, Maria Valentini, Jasmine Xu, Graham Neubig, Alexis Palmer',
+    venue: 'ACL (Outstanding Paper Award)',
+    year: 2026,
+    link: 'https://aclanthology.org/2026.acl-long.1657/',
+    code: 'https://github.com/lecs-lab/polygloss/tree/main',
+    id: 'pub-acl2026',
+  },
+  {
+    title: 'Not-just-scaling laws: Towards a better understanding of the downstream impact of language model design decisions',
+    authors: 'Emmy Liu, Amanda Bertsch, Lintang Sutawika, Lindia Tjuatja, Patrick Fernandes, Lara Marinov, Michael Chen, Shreya Singhal, Carolin Lawrence, Aditi Raghunathan, Kiril Gashteovski, Graham Neubig',
+    venue: 'EMNLP',
+    year: 2025,
+    link: 'https://aclanthology.org/2025.emnlp-main.830/',
+    code: 'https://github.com/nightingal3/llm-pretraining-behaviours/',
+    id: 'pub-emnlp2025',
+  },
+  {
+    title: 'Synthetic socratic debates: Examining persona effects on moral decision and persuasion dynamics',
+    authors: 'Jiarui Liu, Yueqi Song, Yunze Xiao, Mingqian Zheng, Lindia Tjuatja, Jana Schaich Borg, Mona Diab, Maarten Sap',
+    venue: 'EMNLP',
+    year: 2025,
+    link: 'https://aclanthology.org/2025.emnlp-main.831/',
+    code: 'https://github.com/jiarui-liu/SyntheticSocraticDebates',
+    id: 'pub-emnlp2025-socratic',
+  },
+  {
     title: 'BehaviorBox: Automated Discovery of Fine-Grained Performance Differences Between Language Models',
     authors: 'Lindia Tjuatja, Graham Neubig',
     venue: 'ACL',
