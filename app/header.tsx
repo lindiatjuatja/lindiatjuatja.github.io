@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 const NAV_LINKS = [
   { label: 'About', href: '/' },
   { label: 'Publications', href: '/publications' },
+  { label: 'FAQ', href: '/faq' },
 ]
 
 export function Header() {

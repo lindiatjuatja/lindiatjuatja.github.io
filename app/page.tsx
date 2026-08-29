@@ -85,7 +85,7 @@ export default function Home() {
             </strong>
           </p>
           <p>
-            My research largely centers around understanding how language models learn and represent linguistic structure, how this influences their behavior, and how this can inform our knowledge of human language processing.
+            My research largely centers around understanding how language models learn and represent linguistic structure within and across languages, how this influences their behavior, and how this can inform our knowledge of human language processing.
             These interests manifest in work across {' '}
             <strong className="font-medium text-zinc-900 dark:text-zinc-100">evaluation</strong>{' '}
             and{' '}
@@ -93,6 +93,27 @@ export default function Home() {
             of large language models, especially with respect to when, where, and how they may be similar or different to humans. 
             I also work on applying these models and other NLP techniques to create tools for supporting underrepresented and endangered languages.
           </p>
+          <div className="rounded-lg border border-zinc-200 bg-zinc-50 p-4 text-sm leading-relaxed text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300">
+            I am looking to recruit PhD students through{' '}
+            <a
+              className="text-zinc-900 underline decoration-zinc-300 underline-offset-2 dark:text-zinc-100 dark:decoration-zinc-600"
+              href="https://liberalarts.utexas.edu/linguistics/graduate-programs/how-to-apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linguistics
+            </a>
+            , expected to start in Fall 2027. I am interested in working with
+            students who are curious about <em>both</em> computational systems
+            (like language models) and learning about language itself. Please see my{' '}
+            <a
+              className="text-zinc-900 underline decoration-zinc-300 underline-offset-2 dark:text-zinc-100 dark:decoration-zinc-600"
+              href="/faq"
+            >
+              FAQ
+            </a>{' '}
+            for more.
+          </div>
           <p className="text-sm">
             <a
               className="text-zinc-900 underline decoration-zinc-300 underline-offset-2 dark:text-zinc-100 dark:decoration-zinc-600"
