@@ -30,9 +30,16 @@ export default function Home() {
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
-        className="flex flex-col-reverse gap-8 sm:flex-row sm:items-start sm:justify-between"
       >
-        <div className="flex-1 space-y-4 text-zinc-600 dark:text-zinc-400">
+        <div className="space-y-4 text-zinc-600 dark:text-zinc-400">
+          <Image
+            src="/prof_pic.jpg"
+            alt="Lindia Tjuatja"
+            width={160}
+            height={160}
+            className="mb-4 rounded-xl object-cover sm:float-right sm:mb-2 sm:ml-8"
+            priority
+          />
           <p>
             Hi! I&apos;m Lindia, a final-year PhD student at CMU&apos;s{' '}
             <a
@@ -136,17 +143,6 @@ export default function Home() {
               </span>
             ))}
           </p>
-        </div>
-
-        <div className="shrink-0 sm:ml-8">
-          <Image
-            src="/prof_pic.jpg"
-            alt="Lindia Tjuatja"
-            width={160}
-            height={160}
-            className="rounded-xl object-cover"
-            priority
-          />
         </div>
       </motion.section>
 
