@@ -81,7 +81,7 @@ const FAQS: { q: string; a: ReactNode }[] = [
       <>
         <span className="block">
           Swap the &ldquo;tj&rdquo; for &ldquo;ch&rdquo; (or for the
-          IPA-inclined: /ˈlɪndia ˈtʃuatʃa/).
+          IPA-inclined: /ˈtʃuatʃa/).
         </span>
         <span className="mt-3 block">
           My last name is the Indonesian word for &ldquo;weather&rdquo;, which is
