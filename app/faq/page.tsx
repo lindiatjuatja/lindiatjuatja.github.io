@@ -63,7 +63,7 @@ const FAQS: { q: string; a: ReactNode }[] = [
         <span className="block">
         I am currently only looking to recruit PhD students for Fall 2027. You do not need to email me to tell me if you've applied. 
         </span>
-
+        <span className="mt-3 block">
         With respect to emails in general, I highly recommend taking a look at{' '}
         <A href="https://talkingtorobots.com/FAQ.html">
           Yonatan Bisk&rsquo;s advice
@@ -76,6 +76,7 @@ const FAQS: { q: string; a: ReactNode }[] = [
         authenticity and b) more similar to other chatbot-generated mail I
         receive in my inbox. Both of these lead to me being incredibly unlikely to reply
         to you, so it&rsquo;s in your best interest to reach out as yourself!
+        </span>
       </>
     ),
   },
