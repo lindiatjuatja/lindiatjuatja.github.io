@@ -60,7 +60,9 @@ const FAQS: { q: string; a: ReactNode }[] = [
     q: 'Should I email you (or other faculty members) to ask about admissions, visits, potential internship opportunities, etc.?',
     a: (
       <>
-        I highly recommend taking a look at{' '}
+        I am currently only looking to recruit PhD students for Fall 2027. You do not need to email me to tell me if you've applied. 
+
+        With respect to emails in general, I highly recommend taking a look at{' '}
         <A href="https://talkingtorobots.com/FAQ.html">
           Yonatan Bisk&rsquo;s advice
         </A>
